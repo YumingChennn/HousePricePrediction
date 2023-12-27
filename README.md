@@ -13,6 +13,8 @@
 
 ## 整體架構
 
+## 資料前處理
+
 ## 模型訓練與預測
 
 ## 創新想法
@@ -21,3 +23,11 @@
 - 計算房子離重要設施的距離。
 
 ## 總結
+- MAPE scor on
+- Final MAPE score:8.97
+- 比賽名次：145/972
+
+![image](https://github.com/YumingChennn/HousePricePrediction/assets/126893165/5fd45c30-866a-4261-81e6-b2e5e6bc0eca)
+
+
+## 使用說明書
