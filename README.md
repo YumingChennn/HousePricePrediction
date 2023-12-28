@@ -12,10 +12,19 @@
 - 嘗試透過自己所學的能力，將準確度提高至最高水平。
 
 ## 整體架構
+該專案主要由三大程式碼組成，包括：EDC、HPP與SUB。
+- EDC全名為External Data Calculation，主要功能為將重要設施的經緯度與房屋的經緯度進行計算，並從中取得房屋附近重要設施的個數與距離。
+- HPP全名為House Price Prediction，主要功能為將房屋的資訊，透過機器學習預測出其房價。
+- SUB全名為Submission，主要功能為將預測結果轉換成主辦方要求的格式。
 
 ## 資料前處理
 
 ## 模型訓練與預測
+- 剛開始我們嘗試過各種不同的模型，嘗試透過trial and error，選擇對於房價預測最佳的模型，最後我們選擇使用RandomForestRegressor(RDF)和GradientBoostingRegressor(GBR)模型進行預測，其中RDF與GBR各佔我們最終預測結果的一半，如圖一所示。
+
+![image](https://github.com/YumingChennn/HousePricePrediction/assets/126893165/400dec84-faca-4f98-a023-e8fe300a2035)  
+圖一 模型架構圖
+
 
 ## 創新想法
 - 重要設施個數計算
