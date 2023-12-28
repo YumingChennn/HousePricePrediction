@@ -156,9 +156,9 @@ print(2)
 
 
 
-# 獨熱編碼
+# One Hot encoding
 
-# 對類別變量進行獨熱編碼
+# 對類別變量進行One Hot encoding
 X = pd.get_dummies(X, columns=cat_cols)
 # 將編碼後的資料索引重新設置為原始索引
 print(X.shape[0])
