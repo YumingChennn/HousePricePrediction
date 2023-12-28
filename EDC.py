@@ -105,16 +105,16 @@ def calculate_closest_facility_distances(house_coordinates, facility_data):
     total_facilities = len(facility_data)
     total_combinations = total_houses * total_facilities
 
-    # 迭代每座房屋
+    # 疊代每座房屋
     for house_index, house_coord in enumerate(house_coordinates):
         house_progress = (house_index + 1) / total_houses * 100  # 計算每座房屋的進度
         print(f"House {house_index + 1}/{total_houses} Calculation Progress: {house_progress:.2f}%")
 
-        # 迭代每種設施
+        # 疊代每種設施
         for facility in facility_data:
             closest_distance = float('inf')  # 初始化最近距離為正無窮大
             if facility_data[facility]:
-                # 迭代特定設施的每個座標
+                # 疊代特定設施的每個座標
                 for facility_coord in facility_data[facility]:
                     distance = geodesic(house_coord, facility_coord).kilometers
                     if distance < closest_distance:
