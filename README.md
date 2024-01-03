@@ -45,7 +45,7 @@ P.S.
 - MSE: 0.02045188416310804
 - RMSE: 0.14301008413083338
 - R2 Score: 0.9797523552461895
-- Final MAPE score:8.97
+- Final MAPE score: 8.97
 - 比賽名次：145/972
 
 ![image](https://github.com/YumingChennn/HousePricePrediction/assets/126893165/5fd45c30-866a-4261-81e6-b2e5e6bc0eca)
